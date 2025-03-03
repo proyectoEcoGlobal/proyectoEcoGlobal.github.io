@@ -1,4 +1,4 @@
-/* Reseteo de estilos básicos */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +15,6 @@ body {
     margin: 0;
 }
 
-/* Encabezado */
 header {
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
     color: white;
@@ -51,7 +50,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* Sección Infraestructura */
 #infraestructura {
     background: #e8f5e9;
     padding: 80px 10%;
@@ -90,7 +88,6 @@ nav a:hover {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Sección Características */
 #caracteristicas {
     background: #c8e6c9;
     padding: 40px;
@@ -125,7 +122,6 @@ nav a:hover {
     transform: translateX(5px);
 }
 
-/* Sección Misión */
 #mision {
     background: #f1f8e9;
     padding: 50px 10%;
@@ -146,7 +142,6 @@ nav a:hover {
     color: #555;
 }
 
-/* Sección Visión */
 #vision {
     background: #e8f5e9;
     padding: 50px 10%;
@@ -167,7 +162,6 @@ nav a:hover {
     color: #555;
 }
 
-/* Sección Objetivos */
 #objetivos {
     background: #c8e6c9;
     padding: 50px 10%;
@@ -212,7 +206,7 @@ nav a:hover {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Animaciones */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -235,7 +229,7 @@ nav a:hover {
     }
 }
 
-/* Footer */
+
 footer {
     background: #333;
     color: white;
@@ -245,7 +239,7 @@ footer {
     font-size: 0.9em;
 }
 
-/* Efectos responsivos */
+
 @media (max-width: 768px) {
     #infraestructura {
         padding: 60px 5%;

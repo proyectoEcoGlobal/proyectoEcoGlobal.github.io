@@ -1,4 +1,4 @@
-/* Reseteo de estilos básicos */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +6,6 @@
     scroll-behavior: smooth;
 }
 
-/* Aseguramos que el body tenga un mínimo de altura para llenar la pantalla */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
@@ -17,7 +16,7 @@ body {
     min-height: 100vh;
 }
 
-/* Encabezado animado */
+
 header {
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
     color: white;
@@ -36,7 +35,7 @@ header .logo {
     letter-spacing: 1px;
 }
 
-/* Menú animado */
+
 nav a {
     color: white;
     text-decoration: none;
@@ -51,7 +50,7 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* Secciones animadas */
+
 section {
     padding: 80px 10%;
     text-align: center;
@@ -65,7 +64,7 @@ section.visible {
     transform: translateY(0);
 }
 
-/* Contenedor de imágenes */
+
 .img-container {
     text-align: center;
     margin-top: 20px;
@@ -83,7 +82,7 @@ section.visible {
     transform: scale(1.05);
 }
 
-/* Botón Volver Arriba */
+
 .volver-arriba {
     position: fixed;
     bottom: 20px;
@@ -103,16 +102,15 @@ section.visible {
     transform: scale(1.1);
 }
 
-/* Pie de página */
+
 footer {
     background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
-    margin-top: auto; /* Asegura que el footer se quede en el fondo */
+    margin-top: auto;
 }
 
-/* Secciones específicas */
 #plan_estudios {
     background: #bbdefb;
     padding: 80px 10%;
@@ -180,7 +178,6 @@ footer {
     animation: fadeInLeft 1s ease-in-out;
 }
 
-/* Animación de aparición */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -219,7 +216,6 @@ footer {
     transition: background 0.3s ease-in-out;
 }
 
-/* Responsive (Dispositivos Móviles y Pantallas Pequeñas) */
 @media (max-width: 768px) {
     body {
         font-size: 14px;

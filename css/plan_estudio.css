@@ -1,4 +1,4 @@
-/* Reseteo de estilos básicos */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +15,6 @@ body {
     margin: 0;
 }
 
-/* Encabezado */
 header {
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
     color: white;
@@ -51,7 +50,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* Sección Plan de Estudios */
 #plan_estudios {
     background: #bbdefb;
     padding: 80px 10%;
@@ -73,7 +71,6 @@ nav a:hover {
     margin-top: 20px;
 }
 
-/* Sección Organización del Centro Educativo */
 #organizacion {
     background: #f1f8e9;
     padding: 50px 10%;
@@ -100,7 +97,6 @@ nav a:hover {
     list-style: disc inside;
 }
 
-/* Sección Plan de Estudio Integrado */
 #plan_estudio_integrado {
     background: #e3f2fd;
     padding: 50px 10%;
@@ -132,7 +128,6 @@ nav a:hover {
     border-bottom: none;
 }
 
-/* Sección Evaluación y Perfiles de Egreso */
 #evaluacion {
     background: #e3f2fd;
     padding: 40px 10%;
@@ -152,7 +147,6 @@ nav a:hover {
     color: #555;
 }
 
-/* Sección Perfil del Egresado */
 #perfil_egresado {
     background: #fff3e0;
     padding: 50px 10%;
@@ -179,7 +173,6 @@ nav a:hover {
     list-style: disc inside;
 }
 
-/* Sección Financiamiento y Modelo Económico */
 #financiamiento {
     background: #e0f7fa;
     padding: 50px 10%;
@@ -201,7 +194,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Contenedores de imágenes */
 .img-container {
     text-align: center;
     margin-top: 30px;
@@ -220,7 +212,6 @@ nav a:hover {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Animaciones */
 @keyframes fadeInRight {
     from {
         opacity: 0;
@@ -232,7 +223,6 @@ nav a:hover {
     }
 }
 
-/* Footer */
 footer {
     background: #333;
     color: white;
@@ -242,7 +232,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Efectos responsivos */
 @media (max-width: 768px) {
     body {
         font-size: 14px;
